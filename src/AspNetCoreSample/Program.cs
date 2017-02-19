@@ -7,8 +7,6 @@ namespace AspNetCoreSample
     {
         public static void Main(string[] args)
         {
-            // TODO: Make sure we save all dates in UTC
-
             Console.WriteLine("Loading web host");
             var webHost = new WebHostBuilder()
                 .UseKestrel()
