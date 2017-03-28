@@ -1,10 +1,13 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26006.2
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Tests", "test/AspNetCoreSample.Tests/AspNetCoreSample.Tests.csproj", "{2D2D4FBC-9913-405E-8A2A-CEAE03D79DF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSample.Tests", "test\AspNetCoreSample.Tests\AspNetCoreSample.Tests.csproj", "{2D2D4FBC-9913-405E-8A2A-CEAE03D79DF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample", "src/AspNetCoreSample/AspNetCoreSample.csproj", "{7108B94F-ADA4-45DD-A1E7-F80023483AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreSample", "src\AspNetCoreSample\AspNetCoreSample.csproj", "{7108B94F-ADA4-45DD-A1E7-F80023483AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreSample.Common", "src\AspNetCoreSample.Common\AspNetCoreSample.Common.csproj", "{0244AFAA-034A-44D8-974D-F2489D771595}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +23,10 @@ Global
 		{7108B94F-ADA4-45DD-A1E7-F80023483AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7108B94F-ADA4-45DD-A1E7-F80023483AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7108B94F-ADA4-45DD-A1E7-F80023483AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0244AFAA-034A-44D8-974D-F2489D771595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0244AFAA-034A-44D8-974D-F2489D771595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0244AFAA-034A-44D8-974D-F2489D771595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0244AFAA-034A-44D8-974D-F2489D771595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
