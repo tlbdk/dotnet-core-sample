@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
 namespace AspNetCoreSample
@@ -9,8 +10,9 @@ namespace AspNetCoreSample
         {
             Console.WriteLine("Loading web host");
             var webHost = new WebHostBuilder()
-                .UseIISIntegration()
                 .UseKestrel()
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseIISIntegration()
                 .UseUrls("http://0.0.0.0:5000")
                 .UseStartup<Startup>()
                 .Build();
