@@ -1,4 +1,4 @@
-param([Int32]$nupkgPath="")
+param([String]$nupkgPath="")
 
 $NUGET_SERVER = "http://nuget.danskenet.net/NuGetGallery/api/v2/package"
 
